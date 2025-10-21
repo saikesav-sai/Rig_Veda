@@ -1,0 +1,83 @@
+# to run docker compose: docker-compose up -d --build
+version: '3.8'
+
+services:
+  # Backend Service (Flask API)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: reg_veda_hack-backend
+    ports:
+      - "8008:8008"
+    environment:
+      - FLASK_APP=app.py
+      - PYTHONUNBUFFERED=1
+      - RUN_TUNNEL=false
+    env_file:
+      - ./backend/.env
+    volumes:
+      # Mount essential data files (embeddings, datasets)
+      - ./backend/data/dataset:/app/data/dataset:ro
+      - ./backend/data/embeddings:/app/data/embeddings:ro
+      - ./backend/data/rig_veda_index.json:/app/data/rig_veda_index.json:ro
+      # Mount cache directory for downloaded audio files
+      - ./backend/cache:/app/cache
+      # Mount logs directory to persist logs
+      # - ./backend/logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8008/', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - reg_veda_hack-network
+
+  # Frontend Service (React App)
+  frontend:
+    build:
+      context: ./frontend/reg_veda_hack
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_BASE=https://veda_backend.saikesav.me/api
+    container_name: reg_veda_hack-frontend
+    ports:
+      - "8009:8009"
+    environment:
+      - PORT=8009
+    depends_on:
+      - backend
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8009"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - reg_veda_hack-network
+
+  # Cloudflare Tunnel Service (for production)
+  # Exposes both backend (8008) and frontend (8009) to the internet
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: reg_veda_hack-tunnel
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN} # Replace with your actual token
+    restart: unless-stopped
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - reg_veda_hack-network
+    # profiles:
+    #   - production  # Commented out - tunnel always runs 
+
+networks:
+  reg_veda_hack-network:
+    driver: bridge
+
+volumes:
+  backend-logs:
+  backend-cache:
