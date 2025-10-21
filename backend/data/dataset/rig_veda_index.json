@@ -1,0 +1,4176 @@
+{
+  "mandalas": [
+    {
+      "mandala_number": 1,
+      "total_hymns": 191,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 88,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 89,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 90,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 91,
+          "total_slokas": 23
+        },
+        {
+          "hymn_number": 92,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 93,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 94,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 95,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 96,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 97,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 98,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 99,
+          "total_slokas": 1
+        },
+        {
+          "hymn_number": 100,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 101,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 102,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 103,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 104,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 105,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 106,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 107,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 108,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 109,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 110,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 111,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 112,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 113,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 114,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 115,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 116,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 117,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 118,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 119,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 120,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 121,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 122,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 123,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 124,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 125,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 126,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 127,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 128,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 129,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 130,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 131,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 132,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 133,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 134,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 135,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 136,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 137,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 138,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 139,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 140,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 141,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 142,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 143,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 144,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 145,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 146,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 147,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 148,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 149,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 150,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 151,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 152,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 153,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 154,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 155,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 156,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 157,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 158,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 159,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 160,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 161,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 162,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 163,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 164,
+          "total_slokas": 52
+        },
+        {
+          "hymn_number": 165,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 166,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 167,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 168,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 169,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 170,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 171,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 172,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 173,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 174,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 175,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 176,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 177,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 178,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 179,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 180,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 181,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 182,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 183,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 184,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 185,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 186,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 187,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 188,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 189,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 190,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 191,
+          "total_slokas": 7
+        }
+      ]
+    },
+    {
+      "mandala_number": 10,
+      "total_hymns": 191,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 27
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 47
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 23
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 88,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 89,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 90,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 91,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 92,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 93,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 94,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 95,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 96,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 97,
+          "total_slokas": 23
+        },
+        {
+          "hymn_number": 98,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 99,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 100,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 101,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 102,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 103,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 104,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 105,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 106,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 107,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 108,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 109,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 110,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 111,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 112,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 113,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 114,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 115,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 116,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 117,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 118,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 119,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 120,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 121,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 122,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 123,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 124,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 125,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 126,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 127,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 128,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 129,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 130,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 131,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 132,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 133,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 134,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 135,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 136,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 137,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 138,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 139,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 140,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 141,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 142,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 143,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 144,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 145,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 146,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 147,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 148,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 149,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 150,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 151,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 152,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 153,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 154,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 155,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 156,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 157,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 158,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 159,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 160,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 161,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 162,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 163,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 164,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 165,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 166,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 167,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 168,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 169,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 170,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 171,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 172,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 173,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 174,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 175,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 176,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 177,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 178,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 179,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 180,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 181,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 182,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 183,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 184,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 185,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 186,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 187,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 188,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 189,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 190,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 191,
+          "total_slokas": 4
+        }
+      ]
+    },
+    {
+      "mandala_number": 2,
+      "total_hymns": 43,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 3
+        }
+      ]
+    },
+    {
+      "mandala_number": 3,
+      "total_hymns": 62,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 23
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 18
+        }
+      ]
+    },
+    {
+      "mandala_number": 4,
+      "total_hymns": 58,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 11
+        }
+      ]
+    },
+    {
+      "mandala_number": 5,
+      "total_hymns": 87,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 9
+        }
+      ]
+    },
+    {
+      "mandala_number": 6,
+      "total_hymns": 75,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 48
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 31
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 17
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 19
+        }
+      ]
+    },
+    {
+      "mandala_number": 7,
+      "total_hymns": 104,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 27
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 88,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 89,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 90,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 91,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 92,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 93,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 94,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 95,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 96,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 97,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 98,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 99,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 100,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 101,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 102,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 103,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 104,
+          "total_slokas": 25
+        }
+      ]
+    },
+    {
+      "mandala_number": 8,
+      "total_hymns": 103,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 34
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 42
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 39
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 48
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 36
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 23
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 13
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 37
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 26
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 25
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 42
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 20
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 19
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 18
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 88,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 89,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 90,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 91,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 92,
+          "total_slokas": 33
+        },
+        {
+          "hymn_number": 93,
+          "total_slokas": 34
+        },
+        {
+          "hymn_number": 94,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 95,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 96,
+          "total_slokas": 21
+        },
+        {
+          "hymn_number": 97,
+          "total_slokas": 15
+        },
+        {
+          "hymn_number": 98,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 99,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 100,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 101,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 102,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 103,
+          "total_slokas": 14
+        }
+      ]
+    },
+    {
+      "mandala_number": 9,
+      "total_hymns": 114,
+      "hymns": [
+        {
+          "hymn_number": 1,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 2,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 3,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 4,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 5,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 6,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 7,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 8,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 9,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 10,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 11,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 12,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 13,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 14,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 15,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 16,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 17,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 18,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 19,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 20,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 21,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 22,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 23,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 24,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 25,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 26,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 27,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 28,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 29,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 30,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 31,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 32,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 33,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 34,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 35,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 36,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 37,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 38,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 39,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 40,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 41,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 42,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 43,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 44,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 45,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 46,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 47,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 48,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 49,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 50,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 51,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 52,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 53,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 54,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 55,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 56,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 57,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 58,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 59,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 60,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 61,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 62,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 63,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 64,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 65,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 66,
+          "total_slokas": 30
+        },
+        {
+          "hymn_number": 67,
+          "total_slokas": 32
+        },
+        {
+          "hymn_number": 68,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 69,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 70,
+          "total_slokas": 10
+        },
+        {
+          "hymn_number": 71,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 72,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 73,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 74,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 75,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 76,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 77,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 78,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 79,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 80,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 81,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 82,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 83,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 84,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 85,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 86,
+          "total_slokas": 48
+        },
+        {
+          "hymn_number": 87,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 88,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 89,
+          "total_slokas": 7
+        },
+        {
+          "hymn_number": 90,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 91,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 92,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 93,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 94,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 95,
+          "total_slokas": 5
+        },
+        {
+          "hymn_number": 96,
+          "total_slokas": 24
+        },
+        {
+          "hymn_number": 97,
+          "total_slokas": 53
+        },
+        {
+          "hymn_number": 98,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 99,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 100,
+          "total_slokas": 9
+        },
+        {
+          "hymn_number": 101,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 102,
+          "total_slokas": 8
+        },
+        {
+          "hymn_number": 103,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 104,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 105,
+          "total_slokas": 6
+        },
+        {
+          "hymn_number": 106,
+          "total_slokas": 14
+        },
+        {
+          "hymn_number": 107,
+          "total_slokas": 26
+        },
+        {
+          "hymn_number": 108,
+          "total_slokas": 16
+        },
+        {
+          "hymn_number": 109,
+          "total_slokas": 22
+        },
+        {
+          "hymn_number": 110,
+          "total_slokas": 12
+        },
+        {
+          "hymn_number": 111,
+          "total_slokas": 3
+        },
+        {
+          "hymn_number": 112,
+          "total_slokas": 4
+        },
+        {
+          "hymn_number": 113,
+          "total_slokas": 11
+        },
+        {
+          "hymn_number": 114,
+          "total_slokas": 4
+        }
+      ]
+    }
+  ]
+}
