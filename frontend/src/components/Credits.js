@@ -10,7 +10,7 @@ const Credits = () => {
       items: [
         {
           name: "Veda Web",
-          description: "Original Sanskrit texts from ancient Vedic manuscripts",
+          description: "Original Sanskrit texts from ancient Vedic manuscripts. Citation: Kölligan, Daniel, Claes Neuefeind, Uta Reinöhl, Patrick Sahle, Antje Casaretto, Anna Fischer, Börge Kiss, Natalie Korobzow, Jürgen Rolshoven, Jakob Halfmann, Francisco Mondaca. VedaWeb. Online Research Platform for Old Indic Texts. University of Cologne. https://vedaweb.uni-koeln.de, accessed 2 October 2025.",
           link: "https://vedaweb.uni-koeln.de/rigveda/"
         },
         {
@@ -240,31 +240,6 @@ const Credits = () => {
           </div>
         </div>
 
-        {/* License Information */}
-        <div style={{
-          background: "rgba(30,41,59,0.95)",
-          borderRadius: "20px",
-          padding: "2rem",
-          marginTop: "2rem",
-          boxShadow: "0 8px 30px rgba(0,0,0,0.5)",
-          textAlign: "center",
-          border: "2px solid rgba(251,191,36,0.2)"
-        }}>
-          <h3 style={{
-            fontSize: "1.3rem",
-            fontWeight: "600",
-            color: "#fbbf24",
-            marginBottom: "1rem"
-          }}>
-            📜 License Information
-          </h3>
-          <p style={{ color: "#cbd5e1", lineHeight: "1.8", fontSize: "1rem" }}>
-            This project uses open-source software and public domain texts. The Rig Veda texts
-            and translations are in the public domain. Modern software components are used under
-            their respective licenses (MIT, Apache 2.0, etc.). All audio recordings are used with
-            permission or are in the public domain.
-          </p>
-        </div>
       </div>
     </div>
   );
