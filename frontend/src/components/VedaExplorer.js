@@ -286,6 +286,36 @@ export default function VedaExplorer() {
     }
   };
 
+
+    const handlePreviousSloka = () => {
+    if (!mandalaNum || !hymnNum || !stanzaNum) return;
+    
+    const currentStanza = Number(stanzaNum);
+    
+    if (currentStanza > 1) {
+      // Previous stanza in same hymn
+      setStanzaNum((currentStanza - 1).toString());
+      setSloka(null);
+      setError(null);
+      if (audioRef.current) { audioRef.current.pause(); audioRef.current.currentTime = 0; }
+      setPlaying(false);
+      
+      setLoading(true);
+      fetch(`${API_BASE}/sloka/${mandalaNum}/${hymnNum}/${currentStanza - 1}`, {
+        headers: { "X-API-Key": API_KEY }
+      })
+        .then(r => r.json())
+        .then(data => {
+          setSloka(data.error ? null : data);
+          setError(data.error || null);
+        })
+        .catch(() => setError("Failed to fetch"))
+        .finally(() => setLoading(false));
+    } else {
+      setError("This is the first mantra in this sukta");
+    }
+  };
+
   const getCurrentStep = () => {
     if (!mandalaNum) return 1;
     if (!hymnNum) return 2;
@@ -412,7 +442,21 @@ export default function VedaExplorer() {
               )}
             </div>
 
-            <div style={{ textAlign: "center", margin : "10rem auto 3rem auto", display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
+            <div style={{ textAlign: "center", margin : "10rem auto 3rem auto", display: "flex", justifyContent: "center", alignItems: "center", gap: "1rem", flexWrap: "wrap" }}>
+              {sloka && (
+                <button onClick={handlePreviousSloka} 
+                  style={{ 
+                    ...STYLES.btn, 
+                    background: "linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)",
+                    boxShadow: "0 8px 20px rgba(59, 130, 246, 0.4)",
+                    display: "inline-flex", 
+                    alignItems: "center", 
+                    gap: "0.75rem",
+                    fontSize: "1.1rem"
+                  }}>
+                  ← Previous Mantra
+                </button>
+              )}
               <button onClick={handleSearch} disabled={loading || !mandalaNum || !hymnNum || !stanzaNum}
                 style={{ ...STYLES.btn, background: (!mandalaNum || !hymnNum || !stanzaNum) ? "#9ca3af" 
                   : "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)",
