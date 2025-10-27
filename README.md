@@ -71,7 +71,7 @@ Rig_Veda/
 
 
 
-## API Endpoints
+## API Endpoints Needs an API Key to Access
 
 ### Semantic Search
 - `POST /api/search` - Search verses by natural language query
