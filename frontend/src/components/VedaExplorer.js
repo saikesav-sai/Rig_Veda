@@ -1,6 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { FaBolt, FaBookOpen, FaCheck, FaChevronDown, FaChevronUp, FaCompress, FaExpand, FaGripHorizontal, FaQuoteLeft, FaSearch } from "react-icons/fa";
 import { API_BASE, API_KEY } from "../config";
+
+// Cache for index data to avoid refetching
+const indexCache = new Map();
 
 // Common styles
 const STYLES = {
@@ -43,7 +46,8 @@ const SearchableDropdown = ({ label, value, placeholder, options, onSelect, sear
             {options.length === 0 ? (
               <div style={{ padding: "1rem", textAlign: "center", color: "#94a3b8" }}>No matches</div>
             ) : (
-              options.slice(0, 50).map((option, i) => (
+              // Only render first 100 items for performance
+              options.slice(0, 100).map((option, i) => (
                 <div key={i} onClick={() => onSelect(option)} style={{
                   padding: "0.5rem", cursor: "pointer", borderRadius: "8px", transition: "background 0.15s", color: "#f8fafc" }}
                   onMouseEnter={(e) => e.target.style.background = "rgba(251,191,36,0.1)"}
@@ -195,20 +199,34 @@ export default function VedaExplorer() {
 
   useEffect(() => {
     if (!mandalaNum) return;
+    
+    // Check cache first
+    if (indexCache.has(mandalaNum)) {
+      setIndexData(indexCache.get(mandalaNum));
+      setError(null);
+      return;
+    }
+    
     setLoading(true);
     fetch(`${API_BASE}/index/${mandalaNum}`, {
       headers: { "X-API-Key": API_KEY }
     })
       .then(r => r.json())
       .then(data => {
-        setIndexData(data.error ? null : data);
-        setError(data.error || null);
+        if (!data.error) {
+          indexCache.set(mandalaNum, data); // Cache the result
+          setIndexData(data);
+          setError(null);
+        } else {
+          setIndexData(null);
+          setError(data.error);
+        }
       })
       .catch(() => setError("Could not load data"))
       .finally(() => setLoading(false));
   }, [mandalaNum]);
 
-  const handleSearch = () => {
+  const handleSearch = useCallback(() => {
     if (!mandalaNum || !hymnNum || !stanzaNum) return setError("Please fill all fields");
     setLoading(true);
     fetch(`${API_BASE}/sloka/${mandalaNum}/${hymnNum}/${stanzaNum}`, {
@@ -223,7 +241,7 @@ export default function VedaExplorer() {
       })
       .catch(() => setError("Failed to fetch"))
       .finally(() => setLoading(false));
-  };
+  }, [mandalaNum, hymnNum, stanzaNum]);
 
   const toggleAudio = () => {
     if (!audioRef.current) return;
@@ -231,17 +249,21 @@ export default function VedaExplorer() {
     setPlaying(!playing);
   };
 
-  const getFilteredHymns = () => {
+  // Memoize filtered hymns to avoid recalculation on every render
+  const getFilteredHymns = useMemo(() => {
     if (!indexData?.hymns) return [];
-    return hymnSearch ? indexData.hymns.filter(h => h.hymn_number.toString().includes(hymnSearch)) : indexData.hymns;
-  };
+    if (!hymnSearch) return indexData.hymns;
+    return indexData.hymns.filter(h => h.hymn_number.toString().includes(hymnSearch));
+  }, [indexData, hymnSearch]);
 
-  const getFilteredStanzas = () => {
+  // Memoize filtered stanzas to avoid recalculation on every render
+  const getFilteredStanzas = useMemo(() => {
     if (!indexData || !hymnNum) return [];
     const hymn = indexData.hymns.find(h => h.hymn_number === Number(hymnNum));
     const all = Array.from({length: hymn?.total_stanzas || 1}, (_, i) => i + 1);
-    return stanzaSearch ? all.filter(n => n.toString().includes(stanzaSearch)) : all;
-  };
+    if (!stanzaSearch) return all;
+    return all.filter(n => n.toString().includes(stanzaSearch));
+  }, [indexData, hymnNum, stanzaSearch]);
 
   const handleQuickInput = () => {
     const match = quickInput.match(/^(\d+)\.(\d+)\.(\d+)$/);
@@ -286,8 +308,7 @@ export default function VedaExplorer() {
     }
   };
 
-
-    const handlePreviousSloka = () => {
+  const handlePreviousSloka = () => {
     if (!mandalaNum || !hymnNum || !stanzaNum) return;
     
     const currentStanza = Number(stanzaNum);
@@ -411,7 +432,7 @@ export default function VedaExplorer() {
                       <img src="/sukta.png" alt="Sukta" style={{ width: "1.3rem", height: "1.3rem", display: "inline-block", verticalAlign: "middle", marginRight: "0.3rem" }} /> Step 2: Select Sukta (Hymn)
                     </label>
                     <SearchableDropdown value={hymnNum ? `Sukta ${hymnNum} (${indexData?.hymns?.find(h => h.hymn_number === Number(hymnNum))?.total_stanzas || 0} stanzas)` : ""}
-                      placeholder="Search or select sukta..." options={getFilteredHymns()}
+                      placeholder="Search or select sukta..." options={getFilteredHymns}
                       onSelect={(h) => { setHymnNum(h.hymn_number); setStanzaNum(""); setSloka(null);
                         setIsHymnDropdownOpen(false); }}
                       searchValue={hymnSearch} onSearchChange={setHymnSearch}
@@ -426,7 +447,7 @@ export default function VedaExplorer() {
                       <img src="/mantra.png" alt="Mantra" style={{ width: "1.3rem", height: "1.3rem", display: "inline-block", verticalAlign: "middle", marginRight: "0.3rem" }} /> Step 3: Select Mantra (Stanza)
                     </label>
                     <SearchableDropdown value={stanzaNum ? `Mantra ${stanzaNum}` : ""}
-                      placeholder="Search or select mantra..." options={getFilteredStanzas()}
+                      placeholder="Search or select mantra..." options={getFilteredStanzas}
                       onSelect={(s) => { setStanzaNum(s); setSloka(null); setIsStanzaDropdownOpen(false); }}
                       searchValue={stanzaSearch} onSearchChange={setStanzaSearch}
                       isOpen={isStanzaDropdownOpen} setIsOpen={setIsStanzaDropdownOpen}
@@ -457,6 +478,7 @@ export default function VedaExplorer() {
                   ← Previous Mantra
                 </button>
               )}
+              
               <button onClick={handleSearch} disabled={loading || !mandalaNum || !hymnNum || !stanzaNum}
                 style={{ ...STYLES.btn, background: (!mandalaNum || !hymnNum || !stanzaNum) ? "#9ca3af" 
                   : "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)",

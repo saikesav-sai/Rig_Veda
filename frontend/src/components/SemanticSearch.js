@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { FaDice, FaSearch } from "react-icons/fa";
 import { API_BASE, API_KEY } from "../config";
 import SearchResults from "./SearchResults";
@@ -42,7 +42,7 @@ export default function SemanticSearch({ onResults }) {
   const [searchResults, setSearchResults] = useState(null);
   const [showResults, setShowResults] = useState(false);
 
-  const analyzeConfidenceDistribution = (scores) => {
+  const analyzeConfidenceDistribution = useCallback((scores) => {
     if (scores.length === 0) return { threshold: 0.65, maxResults: 15 };
     const sortedScores = [...scores].sort((a, b) => b - a);
     const q1 = sortedScores[Math.floor(sortedScores.length * 0.25)];
@@ -74,9 +74,9 @@ export default function SemanticSearch({ onResults }) {
       maxResults = Math.min(30, sortedScores.length);
     }
     return { threshold, maxResults };
-  };
+  }, []);
 
-  const filterAndRankResults = (results, query) => {
+  const filterAndRankResults = useCallback((results, query) => {
     const resultsWithConfidence = results.map(verse => ({
       ...verse,
       confidence: verse.similarity_score || 0.5
@@ -111,7 +111,7 @@ export default function SemanticSearch({ onResults }) {
       averageConfidence: filteredResults.length > 0 
         ? filteredResults.reduce((sum, v) => sum + v.confidence, 0) / filteredResults.length : 0
     };
-  };
+  }, [analyzeConfidenceDistribution]);
 
   const handleSurpriseMe = async () => {
     setLoading(true);
@@ -145,14 +145,11 @@ export default function SemanticSearch({ onResults }) {
     }
   };
 
-  const handleSemanticSearch = async (query = searchQuery) => {
+  const handleSemanticSearch = useCallback(async (query = searchQuery) => {
     if (!query.trim()) return;
     setLoading(true);
     setError(null);
     try {
-      console.log('Fetching from:', `${API_BASE}/semantic/search`);
-      console.log('Request body:', { query, top_k: 50 });
-      
       const response = await fetch(`${API_BASE}/semantic/search`, {
         method: 'POST',
         headers: { 
@@ -162,19 +159,15 @@ export default function SemanticSearch({ onResults }) {
         body: JSON.stringify({ query, top_k: 50 }),
       });
       
-      console.log('Response status:', response.status);
       const data = await response.json();
-      console.log('Response data:', data);
       
       if (data.error) {
         setError(data.error);
         setSearchResults(null);
         if (onResults) onResults(null);
       } else {
-        console.log('Raw results count:', data.results?.length);
         const { filteredResults, totalFetched, highConfidenceCount, averageConfidence } = 
           filterAndRankResults(data.results, query);
-        console.log('Filtered results count:', filteredResults.length);
         
         const transformedData = {
           intent: 'semantic_search',
@@ -184,7 +177,6 @@ export default function SemanticSearch({ onResults }) {
           searchMetadata: { totalFetched, displayCount: filteredResults.length,
             highConfidenceCount, averageConfidence }
         };
-        console.log('Transformed data:', transformedData);
         setSearchResults(transformedData);
         setShowResults(true);
         if (onResults) onResults(transformedData);
@@ -197,7 +189,7 @@ export default function SemanticSearch({ onResults }) {
     } finally {
       setLoading(false);
     }
-  };
+  }, [searchQuery, filterAndRankResults, onResults]);
 
   const handleBackToSearch = () => {
     setShowResults(false);

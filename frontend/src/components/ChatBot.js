@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { memo, useCallback, useRef, useState } from "react";
 import { FaPause, FaPlay } from "react-icons/fa";
 import { API_BASE, API_KEY } from "../config";
 
@@ -29,7 +29,7 @@ const getIntentConfig = (intent) => {
   return configs[intent] || configs.general;
 };
 
-const SlokaCard = ({ sloka, idx, playingAudio, audioLoading, toggleAudio }) => (
+const SlokaCard = memo(({ sloka, idx, playingAudio, audioLoading, toggleAudio }) => (
   <div key={idx} style={{ background: SACRED_GRADIENTS.pure,
     border: `1px solid ${VEDIC_COLORS.softGold}30`, borderRadius: "12px",
     padding: "1rem", marginBottom: "0.75rem", position: "relative", overflow: "hidden" }}>
@@ -74,10 +74,10 @@ const SlokaCard = ({ sloka, idx, playingAudio, audioLoading, toggleAudio }) => (
     <div style={{ lineHeight: "1.6", color: VEDIC_COLORS.ivoryWhite,
       fontSize: "0.95rem", fontFamily: "'Crimson Pro', serif" }}>{sloka.meaning}</div>
   </div>
-);
+));
 
 // Section wrapper component
-const Section = ({ title, content, gradient, borderColor }) => (
+const Section = memo(({ title, content, gradient, borderColor }) => (
   <div style={{ background: gradient, border: `2px solid ${borderColor}`,
     borderRadius: "16px", padding: "1.25rem", marginBottom: "1rem",
     position: "relative", overflow: "hidden" }}>
@@ -92,7 +92,7 @@ const Section = ({ title, content, gradient, borderColor }) => (
     <div style={{ lineHeight: "1.7", color: VEDIC_COLORS.earthyBeige,
       fontFamily: "'Crimson Pro', serif", fontSize: "1.05rem" }}>{content}</div>
   </div>
-);
+));
 
 export default function ChatBot() {
   const [chatMessages, setChatMessages] = useState([]);
@@ -103,14 +103,14 @@ export default function ChatBot() {
   const [audioLoading, setAudioLoading] = useState(null);
   const audioRefs = useRef({});
 
-  const getAudioUrl = (location) => {
+  const getAudioUrl = useCallback((location) => {
     if (!location) return null;
     const parts = location.split('.');
     if (parts.length !== 3) return null;
     return `${API_BASE}/audio/${parseInt(parts[0])}/${parseInt(parts[1])}/${parseInt(parts[2])}`;
-  };
+  }, []);
 
-  const toggleAudio = async (location) => {
+  const toggleAudio = useCallback(async (location) => {
     const audioUrl = getAudioUrl(location);
     if (!audioUrl) return;
 
@@ -139,7 +139,7 @@ export default function ChatBot() {
       setAudioLoading(null);
       setPlayingAudio(null);
     }
-  };
+  }, [playingAudio, getAudioUrl]);
 
   const renderChatResponse = (data) => {
     if (typeof data === "string") {

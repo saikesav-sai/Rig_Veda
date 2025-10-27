@@ -175,7 +175,7 @@ const SummarySection = ({ answer, summary, config }) => {
       border: `2px solid ${config.border}`, backdropFilter: "blur(10px)" }}>
       <h3 style={{ color: config.color, marginBottom: "1.5rem", fontSize: "1.8rem",
         fontWeight: "700", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-        🤖 {answer ? 'AI Analysis' : 'Search Summary'}
+         {answer ? 'AI Analysis' : 'Search Summary'}
       </h3>
 
       {(answer?.summary || summary) && (
@@ -184,7 +184,7 @@ const SummarySection = ({ answer, summary, config }) => {
           marginBottom: answer?.interpretation || answer?.reflection ? "1.5rem" : "0" }}>
           <div style={{ fontWeight: "700", color: config.color, marginBottom: "0.75rem",
             fontSize: "1.1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-            📝 Summary
+             Summary
           </div>
           <div style={{ lineHeight: "1.8", fontSize: "1.1rem", color: "#f8fafc" }}>
             {answer?.summary || summary}
@@ -198,7 +198,7 @@ const SummarySection = ({ answer, summary, config }) => {
           marginBottom: answer?.reflection ? "1.5rem" : "0" }}>
           <div style={{ fontWeight: "700", color: "#14b8a6", marginBottom: "0.75rem",
             fontSize: "1.1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-            🎯 Interpretation
+             Interpretation
           </div>
           <div style={{ lineHeight: "1.8", fontSize: "1.1rem", color: "#f8fafc" }}>
             {answer.interpretation}
@@ -211,7 +211,7 @@ const SummarySection = ({ answer, summary, config }) => {
           border: "2px solid rgba(245,158,11,0.4)", borderRadius: "16px", padding: "1.75rem" }}>
           <div style={{ fontWeight: "700", color: "#f59e0b", marginBottom: "0.75rem",
             fontSize: "1.1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-            🔮 Reflection
+             Reflection
           </div>
           <div style={{ lineHeight: "1.8", fontSize: "1.1rem", color: "#f8fafc" }}>
             {answer.reflection}
@@ -334,7 +334,7 @@ export default function SearchResults({ results, onBack }) {
             <div style={{ display: "flex", justifyContent: "space-between",
               alignItems: "center", marginBottom: "2rem", flexWrap: "wrap", gap: "1rem" }}>
               <h3 style={{ color: "#fbbf24", margin: 0, fontSize: "1.8rem", fontWeight: "700" }}>
-                📚 Found {displayVerses.length} {displayVerses.length === 1 ? 'Verse' : 'Verses'}
+                 Found {displayVerses.length} {displayVerses.length === 1 ? 'Verse' : 'Verses'}
               </h3>
             </div>
             <div style={{ display: "grid", gap: "2rem" }}>
