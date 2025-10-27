@@ -1,8 +1,8 @@
 # Documentation:
-For detailed project documentation, Read My Hand Written [Documentation](Documentation.pdf)
+**For detailed project View, Read My Hand Written [Documentation](Documentation.pdf)**
 
 
-# Rig Veda Explorer
+# Rig Veda Explorer [veda.saikesav.me](https://veda.saikesav.me)
 
 A modern web application for exploring and searching the ancient Rig Veda texts with AI-powered semantic search and interactive chat capabilities.
 
@@ -62,7 +62,7 @@ Rig_Veda/
 ```
 
  **Local Development**
-  If you want to deploy my project locally, Email_ME[saikesav67254@gmail.com] for proper instructions.
+  If you want to deploy my project locally, [Email_ME](mailto:saikesav67254@gmail.com) for proper instructions.
 ### Prerequisites
 - Docker and Docker Compose installed
 - Node.js 16+ (for local development)
