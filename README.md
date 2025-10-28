@@ -1,5 +1,5 @@
 # Documentation:
-**For detailed project View, Read My Hand Written [Documentation](Documentation.pdf)**
+**For Know About The Development Journey, Read My Hand Written [Documentation](Documentation.pdf)**
 
 
 # Rig Veda Explorer [veda.saikesav.me](https://veda.saikesav.me)
