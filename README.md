@@ -71,7 +71,7 @@ Rig_Veda/
 
 
 
-## API Endpoints Needs an API Key to Access
+## API Endpoints Needs an API Key to Access, [Email_ME](mailto:saikesav67254@gmail.com) for API key.
 
 ### Semantic Search
 - `POST /api/search` - Search verses by natural language query
